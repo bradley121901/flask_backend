@@ -20,7 +20,7 @@ classes = pickle.load(open('labels.pkl','rb'))
 api = Flask(__name__)
 CORS(api) 
 
-@api.route("/chatbot", methods=["POST"])
+@api.route("/", methods=["POST"])
 def chatbot_response():
     print("HELLLOOO")
     msg = request.form["msg"]
