@@ -21,11 +21,11 @@ api = Flask(__name__)
 CORS(api) 
 api.run(debug=True)
 
-@app.route('/flask_backend/', methods=["GET"])
+@app.route('/', methods=["GET"])
 def index():
     return render_template('index.html')
 
-@api.route("/flask_backend/", methods=["POST"])
+@api.route("/", methods=["POST"])
 def chatbot_response():
     print("HELLLOOO")
     msg = request.form["msg"]
