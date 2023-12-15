@@ -1,0 +1,352 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good day",
+        "Hola",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! Welcome to Bradley's portfolio website. How can I assist you today?",
+        "Hi there, how can I help?",
+        "Good to see you again",
+        "Greetings! Feel free to explore Bradley's portfolio.",
+        "Hey! If you have any questions about Bradley's work, feel free to ask."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time",
+        "Farewell",
+        "Adios",
+        "Take care",
+        "Have a great day",
+        "Until we meet again"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Goodbye! If you need anything else, feel free to reach out.",
+        "Until we meet again!",
+        "Farewell! If you have more questions in the future, don't hesitate to ask.",
+        "Adios! If there's anything else you'd like to know, feel free to ask.",
+        "Take care! If you have further inquiries, feel free to reach out.",
+        "Goodbye! Wishing you a wonderful day.",
+        "Until next time! If there's anything else I can help with, let me know."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me",
+        "Appreciate it",
+        "Thanks a bunch",
+        "Thanks a million",
+        "Thank you very much",
+        "Gracias"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're welcome! If you have more questions, feel free to ask.",
+        "Glad I could assist you.",
+        "Thanks for the appreciation!",
+        "You're welcome! If there's anything else you need, feel free to let me know.",
+        "Thanks a bunch! If you have further inquiries, feel free to ask.",
+        "Thanks a million! If there's anything else I can help with, don't hesitate to ask.",
+        "Gracias! It's my pleasure to assist you."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand",
+        "I'm here to help. Could you provide more details?",
+        "I might need more information to assist you.",
+        "Apologies, I didn't catch that. Could you please provide more details?",
+        "I'm here to assist you, but I need more information to understand your request.",
+        "I'm having trouble understanding. Can you provide more context or details?",
+        "It seems like there's a bit of confusion. Could you clarify or provide more information?",
+        "I want to help, but I need more details to understand your request."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered",
+        "Tell me about your capabilities",
+        "List your features",
+        "What are your functions",
+        "What assistance can you provide?",
+        "What services are available?"
+      ],
+      "responses": [
+        "I can answer any questions you have about this portfolio",
+        "Feel free to ask about Bradley's projects, experiences, or anything related to his portfolio.",
+        "I'm here to provide information about Bradley's portfolio and experiences.",
+        "Ask me anything related to Bradley's work, and I'll do my best to assist you.",
+        "I can guide you through Bradley's portfolio, share information about his experiences, and more."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "portfolio",
+      "patterns": [
+        "What makes up your portfolio site",
+        "What languages are used",
+        "Tell me about the portfolio",
+        "Give me details about the portfolio",
+        "Explain the portfolio",
+        "Describe the portfolio",
+        "Portfolio components",
+        "List portfolio features",
+        "Navigate me through the portfolio",
+        "Show me the portfolio"
+      ],
+      "responses": [
+        "Bradley's portfolio is built with React.js on the front end and Flask in the backend.",
+        "It includes a chatbot, navigation bars, and a list of experiences.",
+        "You can find more details by navigating to different pages on the website.",
+        "Exploring Bradley's portfolio will give you insights into his skills and projects."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "experience",
+      "patterns": [
+        "Tell me about Bradley's work experience",
+        "What has Bradley worked on",
+        "Bradley's professional background",
+        "Experiences",
+        "Work history",
+        "Tell me about Bradley's career"
+      ],
+      "responses": [
+        "Bradley is a fourth-year Computer Science student with a minor in Data Science at the University of Ottawa.",
+        "He has worked on projects involving passwordless authentication, web applications for financial institutions, and workshops on deploying applications on private cloud.",
+        "Bradley has experience with database management at CMiC, data integration mappings, and automation with API testing and scripting.",
+        "In his career, Bradley has contributed to various impactful projects, showcasing his skills in full-stack development and machine learning."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "github",
+      "patterns": [
+        "What's Bradley's GitHub",
+        "Tell me about Bradley's GitHub projects",
+        "GitHub repositories",
+        "Bradley's code on GitHub",
+        "Explore Bradley's GitHub"
+      ],
+      "responses": [
+        "You can find Bradley's GitHub and explore his projects at https://github.com/bradley121901.",
+        "Explore Bradley's GitHub repositories at https://github.com/bradley121901.",
+        "Bradley's GitHub is a hub for his projects, covering machine learning, full-stack development, Flask, Django, HTML, React.js, Node.js, MongoDB, MySQL, and Android.",
+        "Visit Bradley's GitHub at https://github.com/bradley121901 to discover his coding expertise across various technologies."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "linkedin",
+      "patterns": [
+        "What's Bradley's LinkedIn",
+        "Tell me about Bradley's LinkedIn profile",
+        "LinkedIn",
+        "Bradley's professional network",
+        "Connect with Bradley on LinkedIn"
+      ],
+      "responses": [
+        "Connect with Bradley on LinkedIn at https://www.linkedin.com/in/bradleyliu121901.",
+        "Find Bradley on LinkedIn: https://www.linkedin.com/in/bradleyliu121901.",
+        "LinkedIn is a great platform to explore Bradley's professional journey. Connect with him at https://www.linkedin.com/in/bradleyliu121901.",
+        "Bradley's LinkedIn profile is accessible at https://www.linkedin.com/in/bradleyliu121901. Feel free to connect and explore his professional network."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "interests",
+      "patterns": [
+        "What are Bradley's interests",
+        "Tell me about Bradley's interests",
+        "Hobbies",
+        "What does Bradley enjoy",
+        "Passions"
+      ],
+      "responses": [
+        "Bradley is passionate about impactful development and has experience with cutting-edge technologies.",
+        "He enjoys exploring and contributing to impressive repositories and strives to become a well-rounded developer.",
+        "Outside his professional experience, Bradley has created various full-stack mobile/web applications and implemented machine-learning models.",
+        "Bradley's interests extend to mentoring others, being an academic instructor from university to elementary levels. He finds joy in sharing knowledge and learning together."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "availability",
+      "patterns": [
+        "Is Bradley available for work",
+        "Tell me about Bradley's availability",
+        "Work availability",
+        "Can Bradley take on new projects",
+        "Bradley's work schedule"
+      ],
+      "responses": [
+        "Bradley is available for work for 4 months before returning to his last term of study.",
+        "Bradley is available for a 4-month internship before returning to his studies.",
+        "If you have exciting projects, Bradley is ready to contribute! He is available for the next 4 months."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "Tell me about Bradley's education",
+        "Bradley's academic background",
+        "Education",
+        "Where does Bradley study",
+        "University details"
+      ],
+      "responses": [
+        "Bradley is a fourth-year student pursuing a Bachelors in Computer Science, with a minor in Data Science at the University of Ottawa.",
+        "His academic journey involves a strong focus on computer science and data science, preparing him for impactful contributions in the tech industry."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "Tell me about Bradley's projects",
+        "Projects",
+        "Notable contributions",
+        "Bradley's significant work",
+        "Impressive projects"
+      ],
+      "responses": [
+        "Bradley has worked on impactful projects, including implementing Google’s new passwordless authentication POC in the signin process for RBC’s Android mobile banking applications.",
+        "He also created a web application for Morgan Stanley with added standardized security features, containerized with Docker, packaged with a Helm Chart, and deployed onto a Kubernetes cluster.",
+        "Bradley's projects showcase a combination of cutting-edge technologies, cloud deployment, and experimental testing with in-house cloud technologies."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "cloud_workshops",
+      "patterns": [
+        "Tell me about Bradley's cloud workshops",
+        "Workshops on cloud technologies",
+        "Hosting cloud workshops",
+        "Bradley's teaching experience",
+        "Cloud technology education"
+      ],
+      "responses": [
+        "Bradley hosted workshops firmwide on how to deploy various department applications onto private cloud within the cloud department.",
+        "His teaching experience includes sharing knowledge on cloud technologies and deployment practices.",
+        "If you're interested in cloud technology, Bradley has valuable insights and experiences to offer."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "database_management",
+      "patterns": [
+        "Tell me about Bradley's database management",
+        "Database management experience",
+        "Database integration",
+        "Bradley's role in database",
+        "SQL expertise"
+      ],
+      "responses": [
+        "Bradley has experience with database management at CMiC, focusing on data integration mappings between partnering companies.",
+        "His tasks involved using SQL queries to create, debug, and resolve data pipelines.",
+        "If you have questions about database management or SQL, Bradley is well-versed in these areas."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "automation_experience",
+      "patterns": [
+        "Tell me about Bradley's automation experience",
+        "Automation skills",
+        "Automated tasks by Bradley",
+        "Bradley's scripting",
+        "Bradley's role in automation"
+      ],
+      "responses": [
+        "Bradley has experience with automation, including API testing with Postman at CMiC, writing Cypress tests at Morgan Stanley, and eliminating significant time during the production release process with his own Python script at RBC.",
+        "His automation skills cover a range of tasks, enhancing efficiency in various stages of development and testing."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "personal_projects",
+      "patterns": [
+        "Tell me about Bradley's personal projects",
+        "Projects outside work",
+        "Personal coding projects",
+        "Bradley's side projects",
+        "Hobbies in coding"
+      ],
+      "responses": [
+        "Outside his professional experience, Bradley has created various full-stack mobile/web applications and implemented machine-learning models.",
+        "His pursuit of knowledge extends to personal projects, showcasing a diverse range of skills and interests.",
+        "If you're curious about Bradley's personal coding projects, feel free to ask for more details."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "mentoring_experience",
+      "patterns": [
+        "Tell me about Bradley's mentoring experience",
+        "Bradley as a mentor",
+        "Mentoring others",
+        "Teaching experience",
+        "Academic instructor"
+      ],
+      "responses": [
+        "Bradley enjoys mentoring others with what he learns, being an academic instructor to those at a university level all the way down to elementary curiosity.",
+        "His mentoring experience spans a wide range, from university-level instruction to fostering elementary curiosity in coding.",
+        "If you're interested in mentorship or learning from Bradley, he's open to sharing his knowledge and experiences."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "future_goals",
+      "patterns": [
+        "Tell me about Bradley's future goals",
+        "Bradley's aspirations",
+        "Career aspirations",
+        "Future plans",
+        "Goals and ambitions"
+      ],
+      "responses": [
+        "Bradley strives to become a well-rounded developer, with special interests in exploring and contributing to incredible repositories built by talented people.",
+        "He finds satisfaction in being part of impressive solutions from their starting stages of development to production and enjoys teaching others.",
+        "If you're curious about Bradley's future goals and aspirations, feel free to ask for more details."
+      ],
+      "context": []
+    }
+  ]
+}
