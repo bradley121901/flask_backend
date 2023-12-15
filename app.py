@@ -19,8 +19,13 @@ classes = pickle.load(open('labels.pkl','rb'))
 
 api = Flask(__name__)
 CORS(api) 
+api.run(debug=True)
 
-@api.route("/", methods=["POST"])
+@app.route('/flask_backend/', methods=["GET"])
+def index():
+    return render_template('index.html')
+
+@api.route("/flask_backend/", methods=["POST"])
 def chatbot_response():
     print("HELLLOOO")
     msg = request.form["msg"]
@@ -88,3 +93,4 @@ def getResponse(ints, intents_json):
             result = random.choice(i["responses"])
             break
     return result
+
